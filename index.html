@@ -34,7 +34,16 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Ссылка</a>
                 </li>
-                <button type="button" class="btn btn-primary" data-bs-target="#contactModal" data-bs-toggle="modal">Связаться с нами</button>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ссылка</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ссылка</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ссылка</a>
+                </li>
+                <button type="button" class="btn btn-primary" data-bs-target="#" data-bs-toggle="modal">Связаться с нами</button>
                 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -68,65 +77,67 @@
     </header>
     <main class="my-5">
       <div class="container d-flex flex-column">
-        <div class="row mb-5 p-3">
-          <div class="col-6 col-md-3">
+        <div class="row mb-5 p-3 d-flex justify-content-center">
+          <div class="col-5 col-md-2">
             <img src="./assets/images/storage-icon.svg" alt="">
             <p>Оформеление на СВХ</p>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-5 col-md-2">
             <img src="./assets/images/truck.svg" alt="">
             <p>Доставка во все регионы</p>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="col-5 col-md-2">
             <img src="./assets/images/partners.svg" alt="">
             <p>Более 10 контрагентов</p>
           </div>
-          <div class="col-6 col-md-3">
-            <img src="./assets/images/partners.svg" alt="">
-            <p>Более 10 партнеров</p>
+          <div class="col-5 col-md-2">
+            <img src="./assets/images/champion.svg" alt="">
+            <p>Лучшее качество</p>
           </div>
         </div>
         <div class="export d-flex flex-column justify-content-center mb-5">
           <div class="title align-self-center mb-3">
             <h1>Мы поставляем</h1>
           </div>
-          <div class="row">
-            <div class="card col-12 col-sm-6 p-1 border-0">
+          <div class="row d-flex justify-content-center">
+            <div class="card col-12 col-sm-5 p-1 border-0">
               <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Алюминеевые профили</h5>
                 <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                <a href="#" class="btn btn-primary">Подробнее</a>
               </div>
             </div>
-            <div class="card col-12 col-sm-6 p-1 border-0">
+            <div class="col-sm-1"></div>
+            <div class="card col-12 col-sm-5 p-1 border-0">
               <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Алюминеевые профили</h5>
                 <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                <a href="#" class="btn btn-primary">Подробнее</a>
               </div>
             </div>
-            <div class="card col-12 col-sm-6 p-1 border-0">
+            <div class="card col-12 col-sm-5 p-1 border-0">
               <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Алюминеевые профили</h5>
                 <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                <a href="#" class="btn btn-primary">Подробнее</a>
               </div>
             </div>
-            <div class="card col-12 col-sm-6 p-1 border-0">
+            <div class="col-sm-1"></div>
+            <div class="card col-12 col-sm-5 p-1 border-0">
               <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Алюминеевые профили</h5>
                 <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                <a href="#" class="btn btn-primary">Подробнее</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div id="carouselPhoto" class="carousel slide d-flex flex-column">
+        <div id="carouselPhoto" class="carousel slide d-flex flex-column" data-bs-touch="true">
           <div class="title align-self-center mb-3">
             <h1>Фото отчеты</h1>
           </div>
@@ -137,21 +148,21 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./assets/images/listovoe_steklo.jpg" class="d-block w-100" alt="..." style="">
+              <img src="./assets/images/primer1.jpg" class="d-block w-100" alt="..." style="">
               <!-- <div class="carousel-caption d-none d-md-block">
                 <h5>Метка первого слайда</h5>
                 <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
               </div> -->
             </div>
             <div class="carousel-item">
-              <img src="./assets/images/listovoe_steklo.jpg" class="d-block w-100" alt="...">
+              <img src="./assets/images/primer1.jpg" class="d-block w-100" alt="...">
               <!-- <div class="carousel-caption d-none d-md-block">
                 <h5>Метка второго слайда</h5>
                 <p>Некоторый репрезентативный заполнитель для второго слайда.</p>
               </div> -->
             </div>
             <div class="carousel-item">
-              <img src="./assets/images/listovoe_steklo.jpg" class="d-block w-100" alt="...">
+              <img src="./assets/images/primer1.jpg" class="d-block w-100" alt="...">
               <!-- <div class="carousel-caption d-none d-md-block">
                 <h5>Метка третьего слайда</h5>
                 <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>
@@ -159,7 +170,7 @@
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhoto" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="outline: black;"></span>
             <span class="visually-hidden">Предыдущий</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselPhoto" data-bs-slide="next">
@@ -220,6 +231,8 @@
             </div>
             <h3>Адрес</h3>
             <p>Ростов-на-Дону, пр-кт Шолохова 11, стр.3</p>
+            <h3>Электронная почта</h3>
+            <p>imeksdon@gmail.com</p>
             <h3>Телефон</h3>
             <p>+7-928-612-37-08</p>
             <p>226-02-61</p>	
@@ -230,11 +243,11 @@
       </div>
     </div>
     <div class="container d-flex flex-column">
-      <div class="contact-form mb-5 mt-5">
+      <div class="contact-form row d-flex justify-content-center mb-5 mt-5">
         <div class="title d-flex justify-content-center mb-5">
           <h1>Связаться с нами</h1>
         </div>
-        <form class="d-flex flex-column">
+        <form class="d-flex flex-column col-12 col-md-8 col-lg-6">
           <div class="mb-3">
             <label for="InputName" class="form-label">Ваше имя</label>
             <input type="text" class="form-control" id="InputName">
@@ -251,9 +264,9 @@
           <button type="submit" class="btn btn-primary w-25">Отправить</button>
         </form>
       </div>
-      <div id="map" class="map w-100">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae4a420e63d17e6eefc7637031dc01aa0909df8a6fcde51ce4b52309e90651b67&amp;height=400&amp;lang=ru_RU&amp;scroll=true;api=3ba34c22-4da6-41df-9dc7-6c9e4a06be6b"></script>
-      </div>
+    </div>
+    <div id="map" class="map w-100">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae4a420e63d17e6eefc7637031dc01aa0909df8a6fcde51ce4b52309e90651b67&amp;height=400&amp;lang=ru_RU&amp;scroll=true;api=3ba34c22-4da6-41df-9dc7-6c9e4a06be6b"></script>
     </div>
     <footer class="bg-primary-subtle">
       <div class="container">
@@ -262,12 +275,12 @@
           <div class="col-3">
             <h5>Навигация</h5>
             <a href=""><p class="m-0">Главная</p></a>
-            <a href=""><p class="m-0">Главная</p></a>
-            <a href=""><p class="m-0">Главная</p></a>
-            <a href=""><p class="m-0">Главная</p></a>
+            <a href=""><p class="m-0">О нас</p></a>
+            <a href=""><p class="m-0">Товары</p></a>
+            <a href=""><p class="m-0">Партнеры</p></a>
           </div>
           <div class="col-3">
-            <h5>Навигация</h5>
+            <h5>Другое</h5>
             <a href=""><p class="m-0">Главная</p></a>
             <a href=""><p class="m-0">Главная</p></a>
             <a href=""><p class="m-0">Главная</p></a>

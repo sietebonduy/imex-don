@@ -1,23 +1,48 @@
-<div class="container d-flex flex-column">
-  <div class="contact-form row d-flex justify-content-center mb-5 mt-5" id="contact-form">
+<div class="container d-flex flex-column" id="contact-form">
+  <div class="contact-form row d-flex justify-content-center mb-5 mt-5">
     <div class="title d-flex justify-content-center mb-5">
       <h1>Связаться с нами</h1>
     </div>
-    <form action="" method="post" class="d-flex flex-column col-12 col-md-8 col-lg-6">
+    <form action="./backend/main.php" method="post" class="needs-validation d-flex flex-column col-12 col-md-8 col-lg-6">
       <div class="mb-3">
-        <label for="InputName" class="form-label">Ваше имя</label>
-        <input name="name" type="text" class="form-control" id="InputName" required>
+        <label for="name" class="form-label">Ваше имя <span class="text-danger">*</span></label>
+        <input name="name" type="text" placeholder="Имя" class="form-control" id="name" required>
+        <div class="invalid-feedback">Пожалуйста, введите ваще имя.</div>
       </div>
       <div class="mb-3">
-        <label for="InputEmail1" class="form-label">Адрес электронной почты</label>
-        <input name="email "type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
+        <label for="email" class="form-label">Адрес электронной почты <span class="text-danger">*</span></label>
+        <input name="email" type="email" placeholder="example@domain.com" class="form-control" id="phone" aria-describedby="emailHelp" required>
         <!-- <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу электронную почту.</div> -->
       </div>
+      <label for="phone" class="form-label">Номер телефона <span class="text-danger">*</span></label>
+      <div class="input-group mb-3">
+        <span class="input-group-text">+7 </span>
+        <input type="tel" id="phone" name="phone" placeholder="999 999 9999" maxlength="10" class="form-control" required pattern="[0-9]{10}">
+      </div>
+      <!-- <script>
+        document.getElementById('phone').addEventListener('input', function() {
+            var input = document.getElementById('phone');
+            var phoneNumber = input.value;
+            // Удаляем все нецифровые символы
+            var cleanedNumber = phoneNumber.replace(/\D/g, '');
+            // Проверяем, что пользователь не удалил код страны
+            if (!cleanedNumber.startsWith('7')) {
+                // Если пользователь удалил код страны, добавляем его обратно
+                cleanedNumber = '7' + cleanedNumber;
+            }
+            // Форматируем номер в желаемый вид (например, +7 (XXX) XXX-XXXX)
+            // Вам может понадобиться использовать другой формат в зависимости от требований
+            var formattedNumber = cleanedNumber.replace(/(\d{1})(\d{3})(\d{3})(\d{4})/, '+$1 ($2) $3-$4');
+            // Обновляем значение в поле ввода
+            input.value = formattedNumber;
+          });
+      </script> -->
+
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
         <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary w-50 mt-2">Отправить</button>
+      <button name="submit_form" type="submit" class="btn btn-primary w-50 mt-2">Отправить</button>
     </form>
   </div>
 </div>

@@ -12,37 +12,17 @@
       <div class="mb-3">
         <label for="email" class="form-label">Адрес электронной почты <span class="text-danger">*</span></label>
         <input name="email" type="email" placeholder="example@domain.com" class="form-control" id="phone" aria-describedby="emailHelp" required>
-        <!-- <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу электронную почту.</div> -->
       </div>
       <label for="phone" class="form-label">Номер телефона <span class="text-danger">*</span></label>
       <div class="input-group mb-3">
         <span class="input-group-text">+7 </span>
         <input type="tel" id="phone" name="phone" placeholder="999 999 9999" maxlength="10" class="form-control" required pattern="[0-9]{10}">
       </div>
-      <!-- <script>
-        document.getElementById('phone').addEventListener('input', function() {
-            var input = document.getElementById('phone');
-            var phoneNumber = input.value;
-            // Удаляем все нецифровые символы
-            var cleanedNumber = phoneNumber.replace(/\D/g, '');
-            // Проверяем, что пользователь не удалил код страны
-            if (!cleanedNumber.startsWith('7')) {
-                // Если пользователь удалил код страны, добавляем его обратно
-                cleanedNumber = '7' + cleanedNumber;
-            }
-            // Форматируем номер в желаемый вид (например, +7 (XXX) XXX-XXXX)
-            // Вам может понадобиться использовать другой формат в зависимости от требований
-            var formattedNumber = cleanedNumber.replace(/(\d{1})(\d{3})(\d{3})(\d{4})/, '+$1 ($2) $3-$4');
-            // Обновляем значение в поле ввода
-            input.value = formattedNumber;
-          });
-      </script> -->
-
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
         <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
       </div>
-      <button name="submit_form" type="submit" class="btn btn-primary w-50 mt-2">Отправить</button>
+      <button name="submit_form" type="submit" class="btn btn-primary w-50 mt-2 px-5">Отправить</button>
     </form>
   </div>
 </div>

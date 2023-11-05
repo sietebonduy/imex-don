@@ -29,7 +29,6 @@ if (isset($_POST) && isset($_POST['submit_form'])) {
   $phone_link = '+7'.$_POST['phone'];
   $phone = formatPhoneNumber($_POST['phone']);
   $email = $_POST['email'];
-  // $email = (string)$email;
   $letter = $_POST['message'];
 
   $message = "

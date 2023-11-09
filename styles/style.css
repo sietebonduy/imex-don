@@ -20,3 +20,12 @@ header .content {
   height: 500px;
   color: white;
 }
+
+.item {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}

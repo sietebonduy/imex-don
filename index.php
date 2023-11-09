@@ -3,12 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Имекс-Дон</title>
+    <title>Главная | Имекс-Дон</title>
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
+    <style>
+
+  </style>
   </head>
   <body>
 
@@ -24,62 +31,107 @@
     </header>
     <main class="my-5">
       <div class="container d-flex flex-column">
-        <div class="row mb-5 p-3 d-flex justify-content-center">
-          <div class="col-5 col-md-2">
-            <img src="./assets/images/storage-icon.svg" alt="">
-            <p>Оформеление на СВХ</p>
+        <div class="row mb-5 p-3 d-flex justify-content-center gap-5">
+          <div class="col-5 col-md-2 d-flex flex-column justify-content-center align-items-center">
+            <div class="icon">
+              <img src="./assets/images/storage-icon.svg" alt="">
+            </div>
+            <div class="disc">
+              <p>Оформеление на СВХ</p>
+            </div>
           </div>
-          <div class="col-5 col-md-2">
-            <img src="./assets/images/truck.svg" alt="">
-            <p>Доставка во все регионы</p>
+          <div class="col-5 col-md-2 d-flex flex-column justify-content-center align-items-center">
+            <div class="icon">
+              <img src="./assets/images/truck.svg" alt="">
+            </div>
+            <div class="disc">
+              <p>Доставка во все регионы</p>
+            </div>
           </div>
-          <div class="col-5 col-md-2">
-            <img src="./assets/images/partners.svg" alt="">
-            <p>Более 10 контрагентов</p>
+          <div class="col-5 col-md-2 d-flex flex-column justify-content-center align-items-center">
+            <div class="icon">
+              <img src="./assets/images/partners.svg" alt="">
+            </div>
+            <div class="disc">
+              <p>Более 10 контрагентов</p>
+            </div>
           </div>
-          <div class="col-5 col-md-2">
-            <img src="./assets/images/champion.svg" alt="">
-            <p>Лучшее качество</p>
+          <div class="col-5 col-md-2 d-flex flex-column justify-content-center align-items-center">
+            <div class="icon">
+              <img src="./assets/images/champion.svg" alt="">
+            </div>
+            <div class="disc">
+              <p>Лучшее качество</p>
+            </div>
           </div>
         </div>
+
         <div class="export d-flex flex-column justify-content-center mb-5">
           <div class="title align-self-center mb-3">
-            <h1>Мы поставляем</h1>
+            <!-- <h1>Мы поставляем</h1> -->
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="card col-12 col-sm-5 p-1 border-0">
-              <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Алюминеевые профили</h5>
-                <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Подробнее</a>
-              </div>
+          <div class="item row bg-light p-5 gap-5">
+            <div class="image col-12 col-md-6">
+              <!-- <img src="./assets/items/Subject.png" class="card-img-top" alt="..." height="350px"> -->
+              <img src="./assets/items/profil-pvh-70(2).png" class="img-fluid " alt="...">
             </div>
-            <div class="col-sm-1"></div>
-            <div class="card col-12 col-sm-5 p-1 border-0">
-              <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Алюминеевые профили</h5>
-                <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Подробнее</a>
-              </div>
+            <div class="description col">
+              <h1>ПВХ оконные профили серии 58мм и 70мм</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum at iste voluptate exercitationem quaerat quibusdam, pariatur molestiae officiis aliquid natus placeat impedit voluptatibus sunt. Eius explicabo adipisci a totam eum.</p>
             </div>
-            <div class="card col-12 col-sm-5 p-1 border-0">
-              <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Алюминеевые профили</h5>
-                <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Подробнее</a>
-              </div>
+          </div>
+          <div class="item row bg-light mt-5 p-5 gap-3">
+           <div class="image col-12 col-md-6 order-first order-md-last">
+              <img src="./assets/items/profil_alimin.png" class="img-fluid" alt="...">
             </div>
-            <div class="col-sm-1"></div>
-            <div class="card col-12 col-sm-5 p-1 border-0">
-              <img src="./assets/images/al_profil.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Алюминеевые профили</h5>
-                <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
-                <a href="#" class="btn btn-primary">Подробнее</a>
-              </div>
+            <div class="description col">
+              <h1>Алюминеевые профили</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum at iste voluptate exercitationem quaerat quibusdam, pariatur molestiae officiis aliquid natus placeat impedit voluptatibus sunt. Eius explicabo adipisci a totam eum.</p>
+            </div>
+          </div>
+          <div class="item row bg-light mt-5 p-5 gap-3">
+            <div class="image col-12 col-md-6">
+              <img src="./assets/items/glass1.png" class="img-fluid" alt="...">
+            </div>
+            <div class="description col">
+              <h1>Листовые стекла, зеркала и декоративные стекла</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum at iste voluptate exercitationem quaerat quibusdam, pariatur molestiae officiis aliquid natus placeat impedit voluptatibus sunt. Eius explicabo adipisci a totam eum.</p>
+            </div>
+          </div>
+          <div class="item row bg-light mt-5 p-5 gap-3">
+            <div class="image col-12 col-md-6 order-first order-md-last">
+              <img src="./assets/items/plenka.png" class="img-fluid" alt="...">
+            </div>
+            <div class="description col">
+              <h1>Пленки</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum at iste voluptate exercitationem quaerat quibusdam, pariatur molestiae officiis aliquid natus placeat impedit voluptatibus sunt. Eius explicabo adipisci a totam eum.</p>
+            </div>
+          </div>
+          <div class="item row bg-light mt-5 p-5 gap-3">
+            <div class="image col-12 col-md-5 col-lg-6">
+              <img src="./assets/items/pvh-c.jpeg" class="img-fluid" alt="...">
+            </div>
+            <div class="description col">
+              <h1>Поливинилхлорид суспензионный</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum at iste voluptate exercitationem quaerat quibusdam, pariatur molestiae officiis aliquid natus placeat impedit voluptatibus sunt. Eius explicabo adipisci a totam eum.</p>
+            </div>
+          </div>
+          <div class="item row bg-light mt-5 p-5 gap-3">
+            <div class="image col-12 col-md-5 col-lg-6 order-first order-md-last">
+              <img src="./assets/items/produce1.png" class="img-fluid" alt="...">
+            </div>
+            <div class="description col">
+              <h1>Комплектующие для производства стеклопакетов</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum at iste voluptate exercitationem quaerat quibusdam, pariatur molestiae officiis aliquid natus placeat impedit voluptatibus sunt. Eius explicabo adipisci a totam eum.</p>
+            </div>
+          </div>
+          <div class="item row bg-light mt-5 p-5 gap-3">
+            <div class="image col-12 col-md-5 col-lg-6">
+              <img src="./assets/items/produce2.png" class="img-fluid" alt="...">
+            </div>
+            <div class="description col">
+              <h1>Комплектующие для производства окон и дверей из ПВХ и Алюминия</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum at iste voluptate exercitationem quaerat quibusdam, pariatur molestiae officiis aliquid natus placeat impedit voluptatibus sunt. Eius explicabo adipisci a totam eum.</p>
             </div>
           </div>
         </div>

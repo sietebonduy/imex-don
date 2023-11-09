@@ -22,12 +22,6 @@
           <li class="nav-item">
             <a class="nav-link" href="partners.php">Контрагенты</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ссылка</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ссылка</a>
-          </li>
           <a class="btn btn-primary" href="#contact-form">Связаться с нами</a>
         </ul>
       </div>
